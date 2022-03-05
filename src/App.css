@@ -1,6 +1,8 @@
 .mainContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin-top: 64px;
 }
@@ -12,23 +14,88 @@
   max-width: 600px;
 }
 
+.logoHeader {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  color: white;
+  font-family: cursive;
+}
+
 .header {
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  color: white;
 }
 
 .bio {
   text-align: center;
-  color: gray;
-  margin-top: 16px;
+  color: lightgray;
 }
 
-.waveButton {
+.connectButton {
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+}
+
+/* style courtesy of https://codepen.io/miraviolet/pen/ZobWEg */
+.button {
+  border-radius: 50rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: rebeccapurple;
+  /* box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5); */
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(to bottom left, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.button:hover {
+  box-shadow: none;
+  color: white;
+}
+
+.formik {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field {
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0.25rem;
+}
+
+.mealCard {
+  border-radius: 100rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin: 1rem;
+  padding: 0.5rem 3rem;
+  color: rebeccapurple;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(to bottom right, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
 }
