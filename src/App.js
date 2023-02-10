@@ -177,17 +177,17 @@ export default function App() {
     <div className="mainContainer">
 
       <div className="dataContainer">
-        <img 
+        {/* <img 
         src='https://see.fontimg.com/api/renderfont4/nRLyO/eyJyIjoiZnMiLCJoIjoxNzgsInciOjIwMDAsImZzIjo4OSwiZmdjIjoiI0Q1QjBFMCIsImJnYyI6IiNGNEU5RTkiLCJ0IjoxfQ/TXVuY2hraW4/alloy-ink.png'
         alt='Munchkin'>
 
-        </img>
-        {/* <div className="logoHeader">
+        </img> */}
+        <div className="logoHeader">
         Munchkin
-        </div> */}
+        </div>
 
         <div className="bio">
-        <p>Share the best eats on the blockchain.</p> 
+        <p>Share the best eats on the blockchain</p> 
         </div>
         <div className="formik">
           
